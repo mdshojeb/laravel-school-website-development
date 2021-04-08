@@ -1,0 +1,819 @@
+/*bangla font install*/
+@import url('https://fonts.maateen.me/bangla/font.css');
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Bangla', sans-serif;
+
+}
+/*------common css-------*/
+#preloader{
+	width: 100%;
+	height: 100vh;
+	background: #EEEEEE url('../img/school-website-loader-white.gif') no-repeat center;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.about-title .menu-active{
+	color:rgb(202, 198, 198);
+}
+
+/*------common css end-------*/
+/*------header-section-------*/
+.header-top-section{
+	background: rgb(6,166,244);
+	background: linear-gradient(90deg, rgba(6,166,244,1) 0%, rgba(88,103,235,1) 35%, rgba(0,155,255,1) 100%);
+	padding:4px;
+}
+.contact-section ul{
+	display: flex;
+	padding:0;
+	margin:0;
+}
+.contact-section ul li:nth-child(1){
+	border-right: 2px solid #fff;
+	padding-right: 4px;
+}
+.contact-section ul li a{
+	color:#fff;
+	transition: .5s;
+	padding-left: 7px;
+	font-size: 18px;
+	display: block;
+}
+.contact-section ul li a:hover{
+	color:#dedede;
+}
+.contact-logo ul{
+	display: flex;
+}
+.contact-logo ul li a{
+	color:#dedede;
+	transition: .5s;
+	padding:0px 10px 0px 10px; 
+	display: block;
+	font-size: 18px;
+}
+.contact-logo ul li a:hover{
+	color:#fff;
+	transform: rotate(360deg) scale(1.1);
+}
+/*------header-section end-------*/
+
+/*------main header-------*/
+.main-header-section{
+	background:url('../img/b-1.png');
+	padding:30px;
+}
+.header-logo{
+	display: flex;
+	justify-content: center;
+}
+.header-logo img{
+	text-align: center;
+	width:100px;
+	height:90px;
+}
+.header-logo-text{
+	text-align: center;
+	margin-left: 15px;
+}
+.header-logo-text h2, .header-logo-text h3{
+	font-family: 'Bangla', sans-serif;
+	color:#fff;
+}
+/*------main header end-------*/
+/*------breaking news-------*/
+
+.breaking-news-section{
+	background: rgb(6,166,244);
+	background: linear-gradient(90deg, rgba(6,166,244,1) 0%, rgba(88,103,235,1) 35%, rgba(0,155,255,1) 100%);
+	height:30px;
+}
+.breaking-news{
+	display: flex;
+}
+.news-text{
+	background:#FBD504;
+	width:450px;
+	height:30px;
+	overflow: hidden;
+}
+.news-text p{
+	text-align: right;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: 'Bangla','sans-serif';
+	margin-right: 10px;
+	margin-top: -2px;
+	color:#323232;
+	animation: ani 10s linear infinite;
+}
+
+@keyframes ani{
+	0%{
+		margin-top: -50px;
+	}
+	10%{margin-top:0px;}
+	20%{margin-top:0px;}
+	30%{margin-top:0px;}
+	40%{margin-top:0px;}
+	50%{margin-top:50px;}
+	60%{margin-top:0px;}
+	70%{margin-top:0px;}
+	80%{margin-top:0px;}
+	90%{margin-top:0px;}
+	100%{margin-top:-50px;}
+}
+.mar-news a{
+	font-family: 'Bangla', sans-serif; 
+	font-size: 20px;
+	color:#fff;
+	margin-top: -2px;
+}
+.mar-news a:hover{
+	text-decoration: underline;
+}
+/*------breaking news end-------*/
+/*------header-menu section-------*/
+
+.header-menu-section{
+	background: #123C69;
+	font-family: 'Bangla', sans-serif; 
+}
+
+.navbar{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.navbar-light .navbar-toggler{
+	border:none;
+}
+.navbar-light .navbar-toggler:hover{
+	outline: none;
+}
+.navbar-light .navbar-toggler i{
+	color:#fff;
+	font-size: 25px;
+    padding: 8px 0px;
+}
+
+.navbar-light .navbar-toggler{
+	color:transparent;
+}
+.navbar-light .navbar-toggler-icon{
+	color:#fff;
+}
+.navbar-nav li{
+	border-right:1px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+    padding: 8px 15px;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	color:#fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#dfdfdf;
+	background: #2588EB;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	background: #123C69;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li{
+	border-right: none;
+	border-bottom: none;
+}
+.dropdown-item{
+	color:#fff;
+}
+.dropdown-item:hover{
+	background: #2588EB;
+	color:#fff;
+}
+.dropdown-item:focus{
+	color:#fff;
+	background: #2588EB;
+}
+
+.regiter-section{
+	float:right;
+	padding:5px 0;
+}
+.regiter-section ul{
+	display: flex;
+}
+.regiter-section ul li{
+	    padding: 3px 0px;
+}
+.regiter-section ul li a{
+	padding:0px 10px;
+	display: block;
+	background:#fff;
+	border-radius:12px;
+	margin-left: 20px;
+	color:#282727;
+	font-weight: 700;
+	font-size: 20px;
+	transition: .5s;
+	font-family: 'Bangla', 'sans-serif'; 
+
+}
+.regiter-section ul li a:hover{
+	background:#2588EB;
+	color:#fff;
+}
+
+
+/*------header-menu section end-------*/
+/*------slider-------*/
+
+.caption-style{
+	background: rgb(0,0,0);
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,1,8,0.639093137254902) 0%, rgba(1,6,9,0.6194852941176471) 100%);
+}
+.silder-section{
+	margin-top: 10px;
+}
+
+.carousel-indicators li{
+	width:13px;
+	height:13px;
+	border-radius: 50%;
+}
+.left-arrow{
+	font-size: 40px;
+}
+.right-arrow{
+	font-size: 40px;
+}
+
+/*------slider end-------*/
+/*------notice section-------*/
+
+.notice-section{
+	border:2px solid #123c696e;
+
+	margin-top: 20px;
+	box-shadow: 0px 5px 20px #555;
+	border-radius: 5px;
+}
+.notice-title{
+	background: rgb(0,0,0);
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(73,95,247,0.639093137254902) 0%, rgba(120,74,185,1) 100%);
+	width:60%;
+	margin:5px auto;
+	text-align: center;
+	border-radius: 5px;
+}
+.notice-title h2{
+	color:#fff;
+	font-size: 23px;
+	padding:8px;
+	font-family: 'Bangla', 'sans-serif'; 
+}
+.notice{
+	padding:5px 20px;
+}
+.notice ul{
+	height:150px;
+	overflow: hidden;
+}
+
+.notice ul li a{
+	font-size: 20px;
+	color:#353434;
+	font-weight: 500;
+	font-family: 'Bangla', sans-serif;
+}
+
+.notice-btn{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.notice-btn a{
+	color:#565555;
+	border:2px solid #4799EC;
+	padding:2px 25px;
+	border-radius: 8px;
+
+	font-family: 'Bangla', sans-serif; 
+
+}
+.notice-btn a:hover{
+	background: #4799EC;
+	color:#fff;
+	transition: .5s;
+}
+
+
+/*------notice section end-------*/
+/*------readmore section-------*/
+
+.readmore-section{
+	border:2px solid #CDCDCD;
+	margin-top: 20px;
+	padding:10px;
+	border-radius: 5px;
+}
+
+.readmore-section-title h3{
+	border-bottom:3px solid #2588EB;
+	display: inline-block;
+	padding:5px 25px 5px 5px;
+	font-family: 'Bangla', sans-serif; 
+	color:rgb(22, 22, 22);
+	border-radius: 5px;
+}
+/* .readmore-img img{
+	width:30%;
+	
+} */
+.blog{
+	min-height:200px;
+}
+.readmore-title{
+	font-family: 'Bangla', sans-serif; 
+	font-size:20px;
+}
+
+.readmore-title a{
+	background:#4799EC;
+	color:#fff;
+	padding:0px 20px;
+	display: inline-block;
+	border-radius: 10px;
+	border:2px solid #4799EC;
+	transition: .5s;
+}
+.readmore-title a:hover{
+	background: transparent;
+	color:#353434;
+}
+
+/*------readmore section end-------*/
+/*------department section-------*/
+
+.department-section{
+	border:2px solid #CDCDCD;
+	margin-top: 20px;
+	padding:10px;
+	border-radius: 5px;
+}
+.department-title h3{
+	background:#4799EC;
+	display: inline-block;
+	padding:5px 25px 5px 5px;
+	font-family: 'Bangla', sans-serif; 
+	color:#fff;
+	border-radius: 5px;
+}
+.department-img{
+	text-align: center;
+	border:2px solid #4799EC;
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	margin:0 auto;
+	margin-top: 40px;
+	overflow:hidden;
+}
+.department-img:hover img{
+	transform:scale(1.1);
+}
+.department-img img{
+	margin-top: 40px;
+	width:120px;
+	height:120px;
+	transition: .5s;
+}
+.department-img-title{
+	text-align: center;
+}
+.department-img-title h4{
+	color: #4799EC;
+	font-size: 25px;
+}
+
+/*------department section end-------*/
+/*------headmaster section-------*/
+.headmaster-section{
+	border:2px solid #1671cc;
+	margin-top: 10px;
+	font-family: 'Bangla', sans-serif; 
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px #555;
+}
+.headmaster-title{
+	background: #1671cc;
+	text-align: center;
+}
+.headmaster-title h4{
+	color:#fff;
+}
+.headmaster-img{
+	text-align: center;
+}
+.headmaster-img img{
+	width: 100%;
+	height:300px;
+}
+.headmaster-img a{
+	padding:2px 20px;
+	margin:10px 0;
+	display: inline-block;
+	background:#4799EC;
+	color:#fff;
+	border:2px solid #4799EC;
+	border-radius: 10px;
+	transition: .5s;
+}
+.headmaster-img a:hover{
+	background: transparent;
+	color:#333;
+}
+
+/*------headmaster section end-------*/
+/*------message section-------*/
+
+.message-section{
+	border:2px solid #1671cc;
+	margin-top: 20px;
+	font-family: 'Bangla', sans-serif; 
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px #555;
+	
+}
+.message-title{
+	text-align: center;
+}
+.message-title h4{
+	background:#1671cc;
+	color:#fff;
+	padding:0 5px;
+}
+.authority-message{
+	margin-left: 5px;
+    overflow-y: auto;
+    height: 260px;
+}
+.authority-message ul{
+	padding:0 5px;
+}
+.authority-message ul li{
+	background: #E2E2E2;
+	margin-bottom: 5px;
+
+}
+.authority-message ul li a{
+	text-decoration: underline;
+	font-size: 19px;
+}
+/*------message section end-------*/
+/*------national song-------*/
+
+.national-song{
+	border:2px solid #1671cc;
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px #555;
+}
+.national-song-title{
+	text-align: center;
+}
+.national-song-title h4{
+	background:#1671cc;
+	color:#fff;
+	padding:0 5px;
+	font-family: 'Bangla', sans-serif; 
+}
+.song-autio{
+	padding:10px;
+	width: 100%
+}
+
+/*------national song end-------*/
+/*------r-notice section-------*/
+
+.r-notice-section{
+	border:2px solid #1671cc;
+	margin-top: 20px;
+	font-family: 'Bangla', sans-serif;
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px #555;
+}
+.r-notice-title{
+	text-align: center;
+}
+.r-notice-title h4{
+	background:#1671cc;
+	color:#fff;
+	padding:0 5px;
+}
+.r-notice-message{
+	margin-left: 5px;
+	overflow: hidden;
+    height: 230px;
+}
+.r-notice-message ul{
+	padding:0 5px;
+}
+.r-notice-message ul li{
+	background: #E2E2E2;
+	margin-bottom: 5px;
+
+}
+.r-notice-message ul li a{
+	text-decoration: underline;
+	font-size: 19px;
+}
+
+/*------r-notice section end-------*/
+/*------link section-------*/
+
+.link-section{
+
+	border:2px solid #1671cc;
+	margin-top: 20px;
+	font-family: 'Bangla', sans-serif; 
+	box-shadow: 0px 5px 15px #555;
+}
+.link-title {
+	text-align: center;
+
+}
+.link-title h4{
+	background:#1671cc;
+	color:#fff;
+	padding:0 5px;
+}
+.importent-links{
+	margin-bottom: 20px;
+	margin-left: 5px;
+	overflow-y: auto;
+    height: 180px;
+}
+.importent-links ul{
+	padding:0 5px;
+}
+.importent-links ul li a{
+	font-size: 20px;
+	color:#4799EC;
+	transition: .5s;
+}
+.importent-links ul li a:hover{
+	color:#1d6cbb;
+}
+
+
+/*------link section end-------*/
+/*------online-class-section-------*/
+
+.online-class-section{
+	border:2px solid #333;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding:20px 0px;
+}
+.online-class-title{
+	text-align: center;
+}
+.online-class-title h2{
+	background: #4799EC;
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px #555;
+    margin-bottom: 30px;
+    font-family: 'Bangla', sans-serif; 
+
+}
+.video-class iframe{
+	width:100%;
+	margin-top: 20px;
+}
+.class-btn{
+	text-align: center;
+}
+.class-btn a{
+	display:inline-block;
+	padding:0px 20px;
+	border:3px solid #4799EC;
+	border-radius: 15px;
+	font-size: 22px;
+	transition: .5s;
+	margin-top: 30px;
+	font-family: 'Bangla', sans-serif; 
+
+}
+.class-btn a:hover{
+	background: #4799EC;
+	color:#fff;
+}
+/*------online-class-section end-------*/
+/*------footer-contact-section-------*/
+
+.f-contact-section{
+	background:url('../img/b-2.png');
+	padding:20px 0;
+}
+.f-quick-link-title h4{
+	color:#fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding:5px 0;
+	font-family: 'Bangla', sans-serif; 
+}
+
+.f-quick-links ul li a{
+	color:#a1a5a8;
+	font-family: 'Bangla', sans-serif; 
+}
+
+.facebook-pages h4{
+	color:#fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding:5px 0;
+	font-family: 'Bangla', sans-serif;
+}
+
+
+
+.our-youtube-channel h4{
+	color:#fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding:5px 0;
+	font-family: 'Bangla', sans-serif; 
+}
+
+
+
+.f-contact-title h4{
+	color:#fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding:5px 0;
+	font-family: 'Bangla', sans-serif; 
+}
+
+.footer-contacts ul li a{
+	color:#a1a5a8;
+	font-family: 'Bangla', sans-serif;
+}
+
+
+/*------footer-contact-section end-------*/
+/*------footer section-------*/
+
+.footer-section{
+	background: #232323;
+	padding:0px 20px;
+	border-top: 1px solid #fff;
+}
+
+
+.footer-copyright a{
+	color:#a1a5a8;
+	display: block;
+	margin-top: 10px;
+	font-family: 'Bangla', sans-serif; 
+}
+
+.footer-icons{
+	margin-top: 10px;
+}
+.footer-icons ul{
+	display: flex;
+	justify-content: center;
+}
+.footer-icons ul li a{
+	color:#dedede;
+	transition: .5s;
+	padding:0px 10px 0px 10px; 
+	display: block;
+	font-size: 18px;
+}
+.footer-icons ul li a:hover{
+	color:#fff;
+	transform: rotate(360deg) scale(1.1);
+}
+.designer-developer p{
+	color:#a1a5a8;
+	margin-top: 10px;
+	font-family: 'Bangla', sans-serif; 
+}
+
+/*------footer section end-------*/
+/*------about.html-css-------*/
+
+.about-title{
+	background: rgb(0,0,0);
+    background: linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(246,247,247,0.639093137254902) 0%, rgba(100,170,244,1) 100%);
+	padding:10px;
+}
+.about-title h4,
+.about-title h4 a{
+	color:rgb(57, 130, 238);
+	font-family: 'Bangla', sans-serif; 
+}
+
+
+.about-kkbhs{
+	padding:20px 0;
+}
+.about-kkbhs>h3{
+	background:linear-gradient(45deg,#2588EB, #153F6D);
+	width:100%;
+	padding:10px;
+	color:#fff;
+	font-family: 'Bangla', sans-serif; 
+}
+.about-kkbhs-img{
+	margin-top: 10px;
+}
+.about-kkbhs-img img{
+	width:100%;
+}
+
+.aobut-text{
+	padding:20px;
+}
+.aobut-text p{
+	font-family: 'Bangla', sans-serif; 
+	font-size: 18px;
+}
+
+/*------about.html-css end-------*/
+/* login-page style here */
+/* teacher card design */
+.social{
+	margin-top: 10px;
+}
+.social a{
+	font-size: 18px;
+	color: rgb(237, 242, 248);
+	transition: 0.5s;
+	width: 20px;
+	height: 20px;
+	padding: 8px;
+	background: rgb(58, 172, 248);
+}
+.social a:hover{
+	color: #424241;
+	background: rgb(245, 221, 3);
+	transform: rotate(360deg) scale(1.1);
+}
+
+/* teacher card design here */
+
+.teacher-card .card{
+	width: 90% !important;
+	min-height: 300px;
+	overflow: hidden;
+	transition: 1s;
+	
+}
+.teacher-card .card:hover{
+	transform: scale(1);
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	
+}
+
+/* Photo gallery styele here */
+.gallery{
+	padding: 20px;
+}
+.gallery-img{
+	padding: 20px;
+	border: 2px solid rgb(83, 152, 243);
+}
+.gallery-img .card{
+	border-radius: 0;
+	transition: all ease .8s;
+	margin: 5px;
+}
+.gallery-img .card:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+	z-index: 1;
+}
+.r-news:hover{
+	color:red;
+}

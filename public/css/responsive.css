@@ -1,0 +1,203 @@
+@media(max-width: 1200px){
+
+
+.regiter-section ul li a{
+	font-size: 17px;
+}
+
+.song-autio {
+    margin-left: 0px;
+}
+.department-img{
+	width: 150px;
+    height: 150px;
+}
+.department-img img{
+	margin-top: 30px;
+    width: 90px;
+    height: 90px;
+}
+
+}/*----1200px end------*/
+
+@media(max-width: 992px){
+
+
+	.navbar-nav li{
+		border-right: none;
+		width:400px;
+		border-bottom: 1px solid #fff;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		    color: #fff;
+		    padding: 8px 0px;
+		    font-size: 20px;
+	}
+
+	.dropdown-menu{
+		left: 0;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu{
+	background: #2588eb;
+}
+
+	.department-img{
+	width: 130px;
+    height: 130px;
+}
+.department-img img{
+	margin-top: 25px;
+    width: 80px;
+    height: 80px;
+}
+
+.headmaster-img img{
+	height:230px;
+	transition: .5s;
+}
+
+.readmore-title {
+    font-size: 17px;
+}
+
+.authority-message,
+.r-notice-message{
+	height:180px;
+}
+.r-notice-message ul li a,
+.importent-links ul li a,
+.authority-message ul li a{
+	font-size: 17px;
+}
+
+.importent-links{
+	height:155px;
+}
+
+
+
+}/*------992px end----------*/
+
+
+@media (max-width: 768px){
+
+	.contact-section ul{
+		justify-content: center;
+	}
+	.contact-logo ul{
+		justify-content: center;
+	}
+
+	.regiter-section ul{
+		padding:5px;
+	}
+	.headmaster-section{
+		height:96%;
+	}
+
+
+	.message-section{
+		height:96%;
+		margin-top: 10px;
+	}
+	.authority-message{
+		height:270px;
+	}
+
+	.national-song{
+		height:240px;
+	}
+	.r-notice-message ul{
+		height: 100%;
+	}
+	.r-notice-message{
+		height:200px;
+	}
+
+
+}/*-------768px end-------*/
+
+@media(max-width: 575px){
+
+	.contact-section ul li a{
+		font-size: 15px;
+	}
+
+	.header-logo img{
+		width:80px;
+		height:70px;
+	}
+
+	.header-logo-text h2{
+		font-size: 18px;
+	} 
+	.header-logo-text h3{
+		font-size:16px;
+	}
+
+	.header-logo-text{
+		margin-left: 5px;
+    	margin-top: 10px;
+	}
+
+	.news-text p{
+		font-size: 18px;
+		margin-top: 1px;
+	}
+	.mar-news p{
+		font-size: 18px;
+		margin-top: 1px;
+	}
+
+	.regiter-section ul li a{
+		font-size: 15px;
+	}
+
+	.regiter-section ul{
+		padding:5px;
+	}
+
+
+	.message-section{
+		margin-top: 10px;
+	}
+	.authority-message{
+		height:205px;
+	}
+
+	.notice ul li a{
+		font-size: 16px;
+	}
+
+	.national-song{
+		height:110px;
+	}
+	.headmaster-section{
+		margin-top: 20px;
+	}
+	.message-section{
+		margin-top: 30px;
+	}
+	.national-song{
+		margin-top: 40px;
+	}
+
+
+	.class-btn a{
+		font-size: 18px;
+	}
+
+	.about-kkbhs h3{
+		font-size: 18px;
+	}
+}/*------575px end--------*/
+
+
+@media (max-width: 440px){
+	.contact-section ul li a{
+		font-size: 12px;
+	}
+	.navbar-nav li{
+		width:200px;
+	}
+}
